@@ -1,0 +1,47 @@
+body { 
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.centered {
+  height: 60vh;  
+  display: flex;
+  justify-content: center;
+  align-items: center;   
+}
+
+.overlay {
+  position: absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  width:100%;
+  height:100%;
+  z-index:998;
+  background-color: Black;
+  opacity: .5;
+}
+
+.popup {
+  position: absolute;
+  width:50%;
+  background-color:#8DA5C6;
+  z-index: 999;
+}
+
+.flash-messages {
+  position: fixed;
+  z-index: 1010;
+  top: 3rem;
+  right: 1rem;
+  left: 1rem;
+  text-align: center;
+  margin-top: 1rem;
+}

@@ -1,0 +1,28 @@
+{
+  "gifts": [
+    {
+      "id": 1,
+      "name": "Barbie doll",
+      "description": "Doll changing color in cold water",
+      "url": "https://fullstackopen.com/",
+      "reserved": false,
+      "users": []
+    },
+    {
+      "id": 2,
+      "name": "L.O.L Surprise doll",
+      "description": "Spy confetti serries",
+      "url": "https://fullstackopen.com/",
+      "reserved": false,
+      "users": []
+    },
+    {
+      "id": 3,
+      "name": "Trolls world tour hero",
+      "description": "Any hero from the mentioned movie",
+      "url": "https://fullstackopen.com/",
+      "reserved": true,
+      "users": []
+    }
+  ]
+}
